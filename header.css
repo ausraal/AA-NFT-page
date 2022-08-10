@@ -1,0 +1,13 @@
+.header {
+    background-color: #fff;
+}
+.logo {
+    width: 50px;
+}
+ul li {
+    list-style-type: none;
+}
+ul li:nth-child(4) {
+    color: #c12686;
+    text
+}

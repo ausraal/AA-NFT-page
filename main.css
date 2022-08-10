@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    width: 200px;
+    margin: 1rem;
+    border: 0.5px;
+}
+.card img {
+    max-width: 100%;
+}
+.text {
+    padding: 20px 10px;
+}
+.text button {
+    width: 100%;
+}
+.main-text {
+    display: block;
+    width: 100vw;
+    height: 6rem;
+    background-image: url(assets/main-backgr.svg);
+    background-size: cover;
+    text-align: justify;
+    }
