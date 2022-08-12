@@ -1,19 +1,22 @@
 .hero {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
     margin-top: 0px;
    }
 .hero img {
-   width: 300px;
-   align-self: flex-start;
-    margin-right: -150px;
-}
+    display: block;
+    overflow: hidden;
+    columns: 2;
+    width: 300px;
+    height: max-content;
+    justify-self: start;
+    }
 div h5 {
     color: #c12686;
     }
 .hero-text {
     columns: 1;
     margin-left: 20px;
-    width: auto;
-    height: 310px;
+    width: 250px;;
+    height: 350px;
    }

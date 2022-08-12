@@ -1,14 +1,73 @@
-main {
+body {
+    margin-left: 20px;
+}
+/* main {
     display: flex;
     flex-wrap: wrap;
+} */
+.companies {
+    display: flexbox;
+    width: 290px;
+    flex-flow: column wrap;
+    margin-bottom: 50px;
+    margin-top: 50px;
+       }
+    .companies img {
+     width: 150px; 
+     padding: 20px; 
+    }
+    .companies img:last-child {
+        display: none;
+    }
+.top-text {
+    width: 300px;
+    font-size: 30px;
 }
-.card {
-    width: 200px;
-    margin: 1rem;
-    border: 0.5px;
+.top-text p {
+    font-size: 24px;
 }
-.card img {
-    max-width: 100%;
+.cards {
+    display: inline-flex;
+     overflow: hidden;
+}
+.top-text span {
+    text-decoration: underline;
+}
+.cards-1, .cards-2 {
+    width: 290px;
+    border-radius: 15px;
+    margin-right: 40px;
+    margin-bottom: 70px;
+    background-color: #eee;
+}
+.card-bottom {
+    display: flex;
+    flex-flow: column wrap;
+    height: 100px;
+}
+.card-bottom p {
+   padding: 1px;
+}
+ .left {
+    columns: 1;
+}
+
+ .right {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 0px;
+    justify-content: center;
+   }
+.left p:first-child, .right p:first-child {
+ color: #ff8139;
+ font-size: smaller;
+}
+.right p, .left p {
+    padding: 2px;
+    margin: 2px;
+}
+.cards-1 p:nth-child(even), .cards-2 p:nth-child(even) {
+    font-size: 20px;    
 }
 .text {
     padding: 20px 10px;
@@ -23,31 +82,19 @@ main {
     height: 7rem;
     padding: 20px;
     background-image: url(assets/main-backgr.svg);
-    opacity: 100;
+    filter: sepia(20%);
     background-size: cover;
     text-align: start;
     }
 .main-text h3 {
-    font-size: 1.5rem;
+    font-size: 2em;
 }
 article {
     width: 80%;
     padding-right: 20px;
     text-align: start;
 }
-.companies {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-bottom: 50px;
-    margin-top: 50px;
-       }
-    .companies img {
-     width: 150px; 
-     padding: 20px; 
-    }
-      .companies img:last-child {
-        display: none;
-    }
+
     .green {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -68,6 +115,7 @@ article {
     }
     .btn {
         border: 2px solid #c12686;
+        background-color: white;
         width: 100px;
         height: 40px;
         text-align: center;

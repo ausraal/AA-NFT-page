@@ -1,0 +1,47 @@
+@media screen and (min-width:768px) {
+    .footer-all {
+        
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        padding-left: 20px;
+        
+        }
+        .icons {
+         color: grey; 
+         grid-column: 1; 
+         grid-row: 3; 
+                 }
+
+        .icons img {
+            width: 20px;
+         
+        }
+              
+        .logo-ft {
+            grid-column: 1; 
+            grid-row: 1;
+        }
+        .footer-all h3 {
+            grid-column: 1; 
+            grid-row: 2;  
+            font-weight: normal;
+            color: #7d7878;
+        }
+        .footer-list {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1f 1fr;
+            justify-content: start;
+        }
+}
+.footer-all p:nth-child(2){
+    display: block;
+}
+.companies {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-bottom: 50px;
+    margin-top: 50px;
+       }
+.companies img:last-child {
+    display: inherit;
+}
