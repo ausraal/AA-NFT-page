@@ -1,7 +1,3 @@
-body {
-    margin: 0;
-    padding: 0;
-}
 main {
     display: flex;
     flex-wrap: wrap;
@@ -23,8 +19,60 @@ main {
 .main-text {
     display: block;
     width: 100vw;
-    height: 6rem;
+    margin: -5px;
+    height: 7rem;
+    padding: 20px;
     background-image: url(assets/main-backgr.svg);
+    opacity: 100;
     background-size: cover;
-    text-align: justify;
+    text-align: start;
     }
+.main-text h3 {
+    font-size: 1.5rem;
+}
+article {
+    width: 80%;
+    padding-right: 20px;
+    text-align: start;
+}
+.companies {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 50px;
+    margin-top: 50px;
+       }
+    .companies img {
+     width: 150px; 
+     padding: 20px; 
+    }
+      .companies img:last-child {
+        display: none;
+    }
+    .green {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-evenly;
+        column-gap: 20px;
+        border-top: 1px solid rgb(190, 192, 194);
+        border-bottom: 1px solid rgb(190, 192, 194);
+    }
+    .green section {
+        align-self: stretch;
+        padding-bottom: 10px;
+    }
+    .green img {
+        columns: 2;
+        height: 400px;
+        place-self: end right;
+        padding-top: 70px;
+    }
+    .btn {
+        border: 2px solid #c12686;
+        width: 100px;
+        height: 40px;
+        text-align: center;
+        border-radius: 30px;
+        columns: 1;
+        justify-self: start;
+        margin-left: 20px;
+    } 

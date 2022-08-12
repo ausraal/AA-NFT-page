@@ -1,0 +1,35 @@
+.footer-all {
+padding-top: 50px;
+display: block;
+}
+.icons {
+ color: grey; 
+ grid-column: 1; 
+ grid-row: 3; 
+}
+.icons img {
+    width: 20px;
+}
+.logo-ft {
+    grid-column: 1; 
+    grid-row: 1;
+}
+.footer-all h3 {
+    grid-column: 1; 
+    grid-row: 2;  
+    font-weight: normal;
+    color: #7d7878;
+}
+.footer-table {
+    display: inline-flex;
+    flex-flow: row wrap;
+}
+th, td {
+padding: 10px;
+text-align: left;
+color: #7d7878;
+font-family: 'Signika Negative', sans-serif;
+}
+tr{
+   margin-left: 100px; 
+}

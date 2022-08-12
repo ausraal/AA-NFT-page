@@ -1,25 +1,19 @@
 .hero {
     display: grid;
     grid-template-columns: 2fr 1fr;
-   
-}
-.hero button {
-border: 2px solid #c12686;
-width: 100px;
-height: 30px;
-text-align: center;
-border-radius: 15px;
-columns: 1;
-margin-bottom: 1rem;
-}
+    margin-top: 0px;
+   }
 .hero img {
-    
-    width: 100px;
-    justify-self: center;
-}ght
-.hero-text h5 {
-    color: #c12686;
+   width: 300px;
+   align-self: flex-start;
+    margin-right: -150px;
 }
+div h5 {
+    color: #c12686;
+    }
 .hero-text {
     columns: 1;
-}
+    margin-left: 20px;
+    width: auto;
+    height: 310px;
+   }
