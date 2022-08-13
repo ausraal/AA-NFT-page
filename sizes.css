@@ -4,6 +4,10 @@
 .ft-color {
     color: #7d7878;
 }
+.menu {
+    margin: 0;
+    padding: 0;   
+}
 .menu a{
     text-decoration: none;
 }

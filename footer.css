@@ -23,10 +23,10 @@ display: block;
     grid-template-columns: 1fr 1fr;
     justify-content: start;
 }
-ul {
+.footer-list ul {
     padding-inline-start: 0px;
 }
-ul li {
+.footer-list ul li {
 padding: 10px;
 margin-right: 20px;
 color: #7d7878;
@@ -34,7 +34,7 @@ font-family: 'Signika Negative', sans-serif;
 font-size: 20px;
 }
 
-ul li:first-child {
+.footer-list ul li:first-child {
  font-weight: bold;   
 }
 

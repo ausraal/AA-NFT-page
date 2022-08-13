@@ -1,4 +1,107 @@
 @media screen and (min-width:768px) {
+  body {
+  margin-left: 80px;
+  }
+    .header-top {
+    display:inline-flex;
+    height: 100px;
+    width: 500px;
+    margin-bottom: 50px;
+    margin-top: 70px;
+    
+    
+ }
+ .menu {
+    width: 600px;
+}
+    .menu li {
+        display: inside;
+        float: right;
+        font-size: 2rem;
+        color: #7d7878;
+        padding: 10px;
+       width: 100px;
+            }
+    .menu li a {  
+        text-align: center;
+    }
+    div h5 {
+        font-size: 20px;   
+    }        
+    .logo {
+        height: 50px;
+        margin-left: 0px;
+        
+    }
+    .hero img {
+        width: 800px;
+        overflow: visible;
+        }
+    .hero-text {
+         width: 400px;
+         height: 500px;
+        }
+    .hero-text h1 {
+        width: 400px;
+        font-size: 70px;
+    }
+    .hero-text p {
+        width: 537px;
+        height: 60px;
+        font-size: 22px;
+    }
+    .main-text {
+        font-size: 25px;
+        padding-left: 50px;
+        border-radius: 15px;
+           }
+          
+    .btn {
+        width: 200px;
+        height: 60px;
+        border: 4px solid #c12686;
+        font-weight: bolder;
+        font-size: larger;
+    }
+    .companies {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        gap: 40px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+
+           }
+    .companies img {
+        width: 200px;
+        lighting-color: azure;
+    }
+    .companies img:last-child {
+
+        display: inherit;
+    }
+    .top-text {
+        width: 1200px;
+        height: 210px;
+        font-size: 30px;
+    }
+    .top-text p {
+        font-size: 32px;
+        padding: 10px;
+    }
+    .cards {
+        overflow: visible;
+        width: 1200px;
+    }
+    .green-w section h1 {
+       font-size: 30px;
+            }
+    .green-w section p {
+                font-size: 26px;
+            }
+    .footer-all p:nth-child(2){
+        display: block;
+    }
+  
     .footer-all {
         
         grid-template-columns: 1fr 1fr;
@@ -14,6 +117,7 @@
 
         .icons img {
             width: 20px;
+            justify-self: space-evenly;
          
         }
               
@@ -32,16 +136,4 @@
             grid-template-columns: 1fr 1fr 1f 1fr;
             justify-content: start;
         }
-}
-.footer-all p:nth-child(2){
-    display: block;
-}
-.companies {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    margin-bottom: 50px;
-    margin-top: 50px;
-       }
-.companies img:last-child {
-    display: inherit;
 }

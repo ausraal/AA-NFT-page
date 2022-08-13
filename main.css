@@ -1,10 +1,21 @@
 body {
     margin-left: 20px;
 }
-/* main {
-    display: flex;
-    flex-wrap: wrap;
-} */
+.main-text {
+    display: block;
+    width: 100vw;
+    margin: -5px;
+    height: 200px;
+    padding: 20px;
+    background-image: url(assets/main-backgr.svg);
+    filter: sepia(20%);
+    background-size: cover;
+    text-align: start;
+    }
+
+.main-text h3 {
+    font-size: 2em;
+}
 .companies {
     display: flexbox;
     width: 290px;
@@ -21,6 +32,7 @@ body {
     }
 .top-text {
     width: 300px;
+   
     font-size: 30px;
 }
 .top-text p {
@@ -28,15 +40,15 @@ body {
 }
 .cards {
     display: inline-flex;
-     overflow: hidden;
+     overflow: scroll;
 }
 .top-text span {
     text-decoration: underline;
 }
-.cards-1, .cards-2 {
+.cards-1 {
     width: 290px;
     border-radius: 15px;
-    margin-right: 40px;
+    margin-right: 50px;
     margin-bottom: 70px;
     background-color: #eee;
 }
@@ -69,33 +81,7 @@ body {
 .cards-1 p:nth-child(even), .cards-2 p:nth-child(even) {
     font-size: 20px;    
 }
-.text {
-    padding: 20px 10px;
-}
-.text button {
-    width: 100%;
-}
-.main-text {
-    display: block;
-    width: 100vw;
-    margin: -5px;
-    height: 7rem;
-    padding: 20px;
-    background-image: url(assets/main-backgr.svg);
-    filter: sepia(20%);
-    background-size: cover;
-    text-align: start;
-    }
-.main-text h3 {
-    font-size: 2em;
-}
-article {
-    width: 80%;
-    padding-right: 20px;
-    text-align: start;
-}
-
-    .green {
+    .green-w {
         display: grid;
         grid-template-columns: 1fr 1fr;
         justify-content: space-evenly;
@@ -103,11 +89,11 @@ article {
         border-top: 1px solid rgb(190, 192, 194);
         border-bottom: 1px solid rgb(190, 192, 194);
     }
-    .green section {
+    .green-w section {
         align-self: stretch;
         padding-bottom: 10px;
     }
-    .green img {
+    .green-w img {
         columns: 2;
         height: 400px;
         place-self: end right;
