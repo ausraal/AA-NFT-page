@@ -1,20 +1,25 @@
 .pink {
     color: #c12686;
 }
+
 .ft-color {
     color: #7d7878;
 }
+
 .menu {
     margin: 0;
-    padding: 0;   
+    padding: 0;
 }
-.menu a{
+
+.menu a {
     text-decoration: none;
 }
+
 .menu li:last-child a {
-    color:  #c12686;
+    color: #c12686;
 }
+
 div h1 {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 37px;
-   }
+}

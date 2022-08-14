@@ -1,28 +1,30 @@
 .header-top {
     display: block;
     justify-content: center;
-    }
+}
+
 .logo {
     height: 20px;
     margin-left: 80px;
     margin-top: 20px;
 }
- ul li {
+
+ul li {
     list-style-type: none;
     color: rgb(0, 0, 0);
 }
- .menu li {
-   text-align: center;
-   padding: 5px;
-   
+
+.menu li {
+    text-align: center;
+    padding: 5px;
 }
+
 .menu a {
     color: #555555;
-   
-    
+
+
 }
+
 .menu ul li:nth-child(4) {
     color: #c12686;
 }
-
- 
