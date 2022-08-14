@@ -2,30 +2,33 @@
 padding-top: 50px;
 display: block;
 }
+
 .icons {
  color: #7d7878;
- 
+ }
 
-}
 .icons img {
     width: 20px;
     fill: #999;
     filter: grayscale(150%); 
     padding: 10px 5px 50px 10px; 
 }
+
 .footer-all h3 {
- 
     font-weight: normal;
     color: #7d7878;
 }
+
 .footer-list {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: start;
 }
+
 .footer-list ul {
     padding-inline-start: 0px;
 }
+
 .footer-list ul li {
 padding: 10px;
 margin-right: 20px;
@@ -34,12 +37,18 @@ font-family: 'Signika Negative', sans-serif;
 font-size: 20px;
 }
 
+.footer-list ul li a {
+    color: #7d7878;
+    text-decoration: none;
+}
+
 .footer-list ul li:first-child {
  font-weight: bold;   
 }
 
-.footer-all p:nth-child(2){
+.footer-all p:nth-last-child(1) {
     display: none;
+   
 }
 .footer-all p {
     color: #7d7878;

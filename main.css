@@ -1,10 +1,10 @@
 body {
     margin-left: 20px;
+    
 }
 .main-text {
     display: block;
-    width: 100vw;
-    margin: -5px;
+    width: 95%;
     height: 200px;
     padding: 20px;
     background-image: url(assets/main-backgr.svg);
@@ -17,14 +17,13 @@ body {
     font-size: 2em;
 }
 .companies {
-    display: flexbox;
+    display: flex;
     width: 290px;
-    flex-flow: column wrap;
     margin-bottom: 50px;
     margin-top: 50px;
        }
     .companies img {
-     width: 150px; 
+     width: 100px; 
      padding: 20px; 
     }
     .companies img:last-child {
@@ -40,10 +39,10 @@ body {
 }
 .cards {
     display: inline-flex;
-     overflow: scroll;
+     overflow: hidden;
 }
-.top-text span {
-    text-decoration: underline;
+.top-text a {
+    color: black;
 }
 .cards-1 {
     width: 290px;
@@ -85,22 +84,24 @@ body {
         display: grid;
         grid-template-columns: 1fr 1fr;
         justify-content: space-evenly;
-        column-gap: 20px;
+        column-gap: 30px;
+        padding-top: 40px;
         border-top: 1px solid rgb(190, 192, 194);
         border-bottom: 1px solid rgb(190, 192, 194);
     }
     .green-w section {
-        align-self: stretch;
-        padding-bottom: 10px;
+        place-self: start start;
+        padding-bottom: 30px;
     }
     .green-w img {
         columns: 2;
         height: 400px;
-        place-self: end right;
-        padding-top: 70px;
+        padding-top: 10px;
+        place-self: end center;
+        
     }
     .btn {
-        border: 2px solid #c12686;
+        border: 2px solid #ff4d4a;
         background-color: white;
         width: 100px;
         height: 40px;
