@@ -1,15 +1,14 @@
 .hero {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    
-    margin-top: 0px;
+    margin-top: 0;
    }
 .hero img {
     columns: 2;
     width: 300px;
     overflow: hidden;
-    padding-left: 0px;
-    margin-left: 0px;
+    padding-left: 0;
+    margin-left: 0;
     }
 div h5 {
     color: #c12686;

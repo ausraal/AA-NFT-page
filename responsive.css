@@ -31,7 +31,7 @@ div h5 {
 }        
 .logo {
         height: 50px;
-        margin-left: 0px;
+        margin-left: 0;
 }
 .hero img {
         width: 750px;
@@ -113,7 +113,7 @@ div h5 {
         
  }
 .icons {
-         color: grey; 
+         color: rgb(99, 93, 93); 
          grid-column: 1; 
 }
 
